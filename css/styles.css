@@ -1,0 +1,39 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+* {
+	font-family: 'Raleway', sans-serif;
+}	
+p {
+	margin:100px;
+}
+form {
+	width: 261px;
+	margin:0 auto;
+	margin-top:100px;
+}
+input {
+	padding:15px 47px;
+	font-size: 16px;
+	border: 3px solid #000;
+	transition: all .3s;
+	text-align:center;
+	display:block;
+	margin-bottom:10px;
+}
+input[type="submit"] {
+	display:inline-block;
+	background:#000;
+	color: #fff;
+	border:0;
+	padding: 15px 23px;
+	cursor: pointer;
+}
+input[name="login"] {
+	margin-left:7px;
+}
+input:focus {
+	outline: none;
+	margin-left:-1px;
+	margin-top:-1px;
+	padding:16px 49px;
+	
+}
